@@ -1,3 +1,61 @@
+:root {
+  --brand-color: #2196f3;
+  --main-color: #212121;
+  --main-color: #FFFFFF;
+  --main-color: #757575;
+
+ }
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 3%;
+}
+.title{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42pt;
+  letter-spacing: 3%;
+  text-align: center;
+
+}
+.menu-list{
+  list-style-type: none;
+}
+.menu-list-link{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16pt;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #212121;
+  text-decoration: none;
+
+}
+.menu-list-link:hover{
+  color: #2196F3;
+}
+.contact-list{
+  list-style-type: none;
+}
+.contact-list-link{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16pt;
+  letter-spacing: 2%;
+  text-align: left;
+  color: #757575;
+  text-decoration: none;
+}
+.contact-list-link:hover{
+  color: #2196F3;
+}
+
+header{
+  background-color: #FFFFFF;
+}
 .logo{
   font-size: 26px;
   font-weight: 700;
@@ -6,26 +64,24 @@
   text-align: right;
   color: #2196F3;
   font-family: 'Raleway', sans-serif;
+  text-decoration: none;
 }
-.nav-link{
+.links{
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 16pt;
-  letter-spacing: 0.02em;
+  letter-spacing: 2%;
   text-align: left;
-  color: #212121;
-  font-family: 'Roboto', sans-serif;
+  color: #757575;
+  text-decoration: none;
 }
-.nav-link:hover{
+.links:hover{
   color: #2196F3;
 }
-header{
-  background-color: #FFFFFF;
-}
-body{
-  font-family: 'Roboto', sans-serif;
-  color: #212121;
-}
+
+
+/* 
 address{
   font-size: 14px;
   font-weight: 400;
@@ -59,25 +115,14 @@ h1{
   font-size: 44px;
   font-weight: 900;
   line-height: 60pt;
-  letter-spacing: 0.06em;
+  letter-spacing: 6%;
   text-align: center;
   color: #FFFFFF;
+  text-transform: uppercase;
 ;
 }
 footer{
   background: #2F303A;
-}
-.links{
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 16pt;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: #757575;
-}
-.links:hover{
-  color: #2196F3;
 }
 .info{
   color: #FFFFFF;
@@ -144,3 +189,4 @@ footer{
   color: #FFFFFF;
   background-color: #2196F3;
 }
+ */
