@@ -197,6 +197,9 @@ header{
 .menu-section-list{
   list-style: none;
 }
+.menu-section-list-item{
+  line-height: 44px;
+}
 .menu-section-button-all{
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
