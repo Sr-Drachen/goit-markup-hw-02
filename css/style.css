@@ -84,6 +84,9 @@ body{
   text-transform: uppercase;
 }
 .hero-section-button{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1,8;
   border-radius: 4px;
   padding: 10px 32px 10px 32px;
   background-color: #2196F3;
@@ -120,11 +123,10 @@ body{
   letter-spacing: 0.03em;
 }
 .team-section{
+  text-aling: center;
   background-color: var(--main-background-semi-light);
 }
 .team-section-title{
-  width: 263px;
-  height: 42px;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -170,71 +172,15 @@ body{
 .menu-section{
   background-color: var(--main-background-beige);
 }
-.menu-section-button-all{
+.menu-section-button{
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   background: var(--main-background-semi-light);
   border: 0;
   border-radius: 4px;
 }
-.menu-section-button-web-site{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  border: 0;
-  background: var(--main-background-semi-light);
-  border-radius: 4px;
-}
-.menu-section-button-app{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  background: var(--main-background-semi-light);
-  border-radius: 4px;
-  border: 0;
-}
-.menu-section-button-design{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  border: 0;
-  background: var(--main-background-semi-light);
-  border-radius: 4px;
-}
-.menu-section-button-marketing{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  border: 0;
-  background: var(--main-background-semi-light);
-  border-radius: 4px;
-}
-.menu-section-button-all:hover, .menu-section-button-all:focus, .menu-section-button-all:active{
+.menu-section-button:hover, .menu-section-button:focus, .menu-section-button:active{
   background-color: #2196F3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  color:  var(--main-color-light);
-  cursor: pointer;
-}
-.menu-section-button-web-site:hover, .menu-section-button-web-site:focus, .menu-section-button-web-site:active{
-  background-color: #2196F3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  color:  var(--main-color-light);
-  cursor: pointer;
-}
-.menu-section-button-app:hover, .menu-section-button-app:focus, .menu-section-button-app:active{
-  background-color: #2196F3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  color:  var(--main-color-light);
-  cursor: pointer;
-}
-.menu-section-button-design:hover, .menu-section-button-design:focus, .menu-section-button-design:active{
-  background-color: #2196F3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  color: var(--main-color-light);
-  cursor: pointer;
-}
-.menu-section-button-marketing:hover, .menu-section-button-marketing:focus, .menu-section-button-marketing:active{
-  background-color: var(--brand-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   color:  var(--main-color-light);
