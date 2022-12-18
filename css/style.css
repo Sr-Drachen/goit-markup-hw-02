@@ -123,15 +123,13 @@ body{
   letter-spacing: 0.03em;
 }
 .team-section{
+  text-align: center;
   background-color: var(--main-background-semi-light);
 }
 .team-section-title{
-  width: 263px;
-  height: 42px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1,1;
-  text-align: center;
 }
 .team-section-list-title{
   font-weight: 500;
