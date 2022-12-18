@@ -27,6 +27,24 @@ body{
   color: var(--main-color-dark);
   text-decoration: none;
 }
+.menu-list-studio{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 0,8em;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-decoration: none;
+  color: var(--brand-color);
+}
+.menu-list-portafolio{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 0,8em;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-decoration: none;
+  color: var(--brand-color);
+}
 .menu-list-link:hover, .menu-list-link:focus, .menu-list-link:active{
   color: var(--brand-color);
 }
